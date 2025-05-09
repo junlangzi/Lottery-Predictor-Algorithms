@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 # Date: 09/05/2025
 # Auth: Luvideez
+# ID: 000001
 from algorithms.base import BaseAlgorithm
 import datetime
 import logging
