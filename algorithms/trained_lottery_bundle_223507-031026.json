@@ -1,0 +1,610 @@
+{
+  "bundle_id": "session_223507-031026",
+  "bundle_name": "Super algorithm + (6 TT)",
+  "trained_date": "2026-10-04T02:19:34",
+  "trained_by": "Thiên cơ số PC Studio Pro / 40m22s",
+  "model_ai_used": "phi4-mini:latest",
+  "generations": 0,
+  "history_days_trained": 7392,
+  "fitness_metric": "TopK_WalkForward_MultiFold",
+  "train_hit_rate": 0.56111,
+  "ai_advisor_summary": "Stop: Hoàn tất tối ưu sâu train/val/holdout. Active=6. DEV HR=64.0%.",
+  "is_enabled": true,
+  "formulas": [
+    {
+      "id": "R5C_DA16E20F71",
+      "name": "R5_Rec_7 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 1.42,
+      "parameters": {
+        "window_days": 45.0,
+        "decay": 0.8,
+        "scale": 1.417,
+        "weight_factor_1": 0.96,
+        "weight_factor_2": 0.895,
+        "weight_factor_3": 0.952,
+        "weight_factor_4": 0.399,
+        "weight_factor_5": 0.533,
+        "weight_factor_6": 0.943,
+        "weight_factor_7": 0.961,
+        "weight_factor_8": 0.729,
+        "weight_factor_9": 0.826,
+        "all_prize_boost": 0.175,
+        "recency_mix": 0.488,
+        "special_boost": 1.412,
+        "phase_period": 12.816
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5C_72C976BD13",
+      "name": "R5_Rec_1 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.59,
+      "parameters": {
+        "window_days": 90.0,
+        "decay": 0.933,
+        "scale": 0.637,
+        "recency_mix": 0.828,
+        "markov_gain": 0.823,
+        "lag_half_life": 7.531,
+        "hot_boost": 0.327,
+        "entropy_gain": 0.185,
+        "pair_cooccur_w": 0.098,
+        "cold_penalty": 0.31,
+        "streak_break": 0.133,
+        "gap_floor": 2.353,
+        "gap_cap": 180.0,
+        "poisson_gain": 0.819,
+        "modulo_gain": 0.358,
+        "absence_gain": 0.084
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_MANUAL_B44C944B",
+      "name": "Absence Milestone and Repeat-Count Score (Auto-Built)",
+      "description": "Historical_Descriptive_Scoring",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.8,
+      "parameters": {
+        "absence_unit": 0.0,
+        "absence_weight": 1.204,
+        "draw_count": 0.967,
+        "history_start_date": 0.0,
+        "milestones": 0.0,
+        "reference_date": 0.0,
+        "repeat_penalty": 0.366,
+        "repeat_window_days": 45.0,
+        "timezone": 0.0
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "Historical_Descriptive_Scoring",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_6CE17CED9E",
+      "name": "Absen_Decay_W48_D90_Sb1_Ag25_C741 (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "StatisticalModel",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.16,
+      "parameters": {
+        "absence_gain": 0.268,
+        "absence_power": 1.922,
+        "absence_reflect": 0.235,
+        "all_prize_boost": 0.167,
+        "decay": 0.904,
+        "digit_gain": 0.086,
+        "neighbor_gain": 0.174,
+        "phase_gain": 0.604,
+        "scale": 0.718,
+        "special_boost": 2.157,
+        "window_days": 180.0
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "StatisticalModel",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5C_6889EE64FF",
+      "name": "R5_Rec_8 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.71,
+      "parameters": {
+        "window_days": 30.0,
+        "decay": 0.99,
+        "scale": 1.287,
+        "recency_mix": 0.727,
+        "markov_gain": 0.681,
+        "lag_half_life": 17.102,
+        "hot_boost": 0.401,
+        "entropy_gain": 0.194,
+        "pair_cooccur_w": 0.121,
+        "cold_penalty": 0.249,
+        "streak_break": 0.113,
+        "gap_floor": 4.256,
+        "gap_cap": 60.0,
+        "poisson_gain": 0.538,
+        "modulo_gain": 0.237,
+        "absence_gain": 0.121
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5M_0DB15DA811",
+      "name": "R5_Mut_2 (Auto-Built)",
+      "description": "StatisticalModel",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.42,
+      "parameters": {
+        "weight_factor_1": 0.773,
+        "weight_factor_2": 0.801,
+        "weight_factor_3": 0.801,
+        "weight_factor_4": 0.394,
+        "weight_factor_5": 1.179,
+        "weight_factor_6": 0.785,
+        "weight_factor_7": 0.246,
+        "weight_factor_8": 0.189,
+        "weight_factor_9": 0.736
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "StatisticalModel",
+      "signature": "",
+      "features": []
+    }
+  ],
+  "best_individual": {
+    "weights": {
+      "R5C_DA16E20F71": 1.42,
+      "R5C_72C976BD13": 0.59,
+      "AI_MANUAL_B44C944B": 0.8,
+      "AI_66B21F6D6B": 0.0,
+      "G03": 0.0,
+      "AI_6CE17CED9E": 0.16,
+      "R5C_6889EE64FF": 0.71,
+      "R5M_0DB15DA811": 0.42
+    },
+    "params": {
+      "R5C_DA16E20F71": {
+        "window_days": 45.0,
+        "decay": 0.8,
+        "scale": 1.417,
+        "weight_factor_1": 0.96,
+        "weight_factor_2": 0.895,
+        "weight_factor_3": 0.952,
+        "weight_factor_4": 0.399,
+        "weight_factor_5": 0.533,
+        "weight_factor_6": 0.943,
+        "weight_factor_7": 0.961,
+        "weight_factor_8": 0.729,
+        "weight_factor_9": 0.826,
+        "all_prize_boost": 0.175,
+        "recency_mix": 0.488,
+        "special_boost": 1.412,
+        "phase_period": 12.816
+      },
+      "R5C_72C976BD13": {
+        "window_days": 90.0,
+        "decay": 0.933,
+        "scale": 0.637,
+        "recency_mix": 0.828,
+        "markov_gain": 0.823,
+        "lag_half_life": 7.531,
+        "hot_boost": 0.327,
+        "entropy_gain": 0.185,
+        "pair_cooccur_w": 0.098,
+        "cold_penalty": 0.31,
+        "streak_break": 0.133,
+        "gap_floor": 2.353,
+        "gap_cap": 180.0,
+        "poisson_gain": 0.819,
+        "modulo_gain": 0.358,
+        "absence_gain": 0.084
+      },
+      "AI_MANUAL_B44C944B": {
+        "absence_unit": 0.0,
+        "absence_weight": 1.204,
+        "draw_count": 0.967,
+        "history_start_date": 0.0,
+        "milestones": 0.0,
+        "reference_date": 0.0,
+        "repeat_penalty": 0.366,
+        "repeat_window_days": 45.0,
+        "timezone": 0.0
+      },
+      "AI_66B21F6D6B": {
+        "absence_gain": 0.136,
+        "absence_power": 2.765,
+        "all_prize_boost": 0.139,
+        "decay": 0.874,
+        "digit_gain": 0.256,
+        "global_scale": 0.53,
+        "modulo": 15.879,
+        "modulo_gain": 0.152,
+        "neighbor_gain": 0.855,
+        "phase_gain": 1.168,
+        "phase_period": 9.257,
+        "poisson_gain": 0.942,
+        "special_boost": 2.247,
+        "window_days": 60.0
+      },
+      "G03": {
+        "g03_per_day": 0.056,
+        "g03_b3": 0.046,
+        "g03_b7": 0.064,
+        "g03_b15": 0.363,
+        "g03_b30": 0.731,
+        "g03_cap_days": 45.0,
+        "weight_factor_1": 1.11,
+        "weight_factor_2": 0.712,
+        "weight_factor_3": 0.374
+      },
+      "AI_6CE17CED9E": {
+        "absence_gain": 0.268,
+        "absence_power": 1.922,
+        "absence_reflect": 0.235,
+        "all_prize_boost": 0.167,
+        "decay": 0.904,
+        "digit_gain": 0.086,
+        "neighbor_gain": 0.174,
+        "phase_gain": 0.604,
+        "scale": 0.718,
+        "special_boost": 2.157,
+        "window_days": 180.0
+      },
+      "R5C_6889EE64FF": {
+        "window_days": 30.0,
+        "decay": 0.99,
+        "scale": 1.287,
+        "recency_mix": 0.727,
+        "markov_gain": 0.681,
+        "lag_half_life": 17.102,
+        "hot_boost": 0.401,
+        "entropy_gain": 0.194,
+        "pair_cooccur_w": 0.121,
+        "cold_penalty": 0.249,
+        "streak_break": 0.113,
+        "gap_floor": 4.256,
+        "gap_cap": 60.0,
+        "poisson_gain": 0.538,
+        "modulo_gain": 0.237,
+        "absence_gain": 0.121
+      },
+      "R5M_0DB15DA811": {
+        "weight_factor_1": 0.773,
+        "weight_factor_2": 0.801,
+        "weight_factor_3": 0.801,
+        "weight_factor_4": 0.394,
+        "weight_factor_5": 1.179,
+        "weight_factor_6": 0.785,
+        "weight_factor_7": 0.246,
+        "weight_factor_8": 0.189,
+        "weight_factor_9": 0.736
+      }
+    }
+  },
+  "last_completed_stage": "V5.3",
+  "best_hit_rate": 0.6399999999999999,
+  "active_algorithms": [
+    {
+      "id": "R5C_DA16E20F71",
+      "name": "R5_Rec_7 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 1.42,
+      "parameters": {
+        "window_days": 45.0,
+        "decay": 0.8,
+        "scale": 1.417,
+        "weight_factor_1": 0.96,
+        "weight_factor_2": 0.895,
+        "weight_factor_3": 0.952,
+        "weight_factor_4": 0.399,
+        "weight_factor_5": 0.533,
+        "weight_factor_6": 0.943,
+        "weight_factor_7": 0.961,
+        "weight_factor_8": 0.729,
+        "weight_factor_9": 0.826,
+        "all_prize_boost": 0.175,
+        "recency_mix": 0.488,
+        "special_boost": 1.412,
+        "phase_period": 12.816
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5C_72C976BD13",
+      "name": "R5_Rec_1 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.59,
+      "parameters": {
+        "window_days": 90.0,
+        "decay": 0.933,
+        "scale": 0.637,
+        "recency_mix": 0.828,
+        "markov_gain": 0.823,
+        "lag_half_life": 7.531,
+        "hot_boost": 0.327,
+        "entropy_gain": 0.185,
+        "pair_cooccur_w": 0.098,
+        "cold_penalty": 0.31,
+        "streak_break": 0.133,
+        "gap_floor": 2.353,
+        "gap_cap": 180.0,
+        "poisson_gain": 0.819,
+        "modulo_gain": 0.358,
+        "absence_gain": 0.084
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_MANUAL_B44C944B",
+      "name": "Absence Milestone and Repeat-Count Score (Auto-Built)",
+      "description": "Historical_Descriptive_Scoring",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.8,
+      "parameters": {
+        "absence_unit": 0.0,
+        "absence_weight": 1.204,
+        "draw_count": 0.967,
+        "history_start_date": 0.0,
+        "milestones": 0.0,
+        "reference_date": 0.0,
+        "repeat_penalty": 0.366,
+        "repeat_window_days": 45.0,
+        "timezone": 0.0
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "Historical_Descriptive_Scoring",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_6CE17CED9E",
+      "name": "Absen_Decay_W48_D90_Sb1_Ag25_C741 (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "StatisticalModel",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.16,
+      "parameters": {
+        "absence_gain": 0.268,
+        "absence_power": 1.922,
+        "absence_reflect": 0.235,
+        "all_prize_boost": 0.167,
+        "decay": 0.904,
+        "digit_gain": 0.086,
+        "neighbor_gain": 0.174,
+        "phase_gain": 0.604,
+        "scale": 0.718,
+        "special_boost": 2.157,
+        "window_days": 180.0
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "StatisticalModel",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5C_6889EE64FF",
+      "name": "R5_Rec_8 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.71,
+      "parameters": {
+        "window_days": 30.0,
+        "decay": 0.99,
+        "scale": 1.287,
+        "recency_mix": 0.727,
+        "markov_gain": 0.681,
+        "lag_half_life": 17.102,
+        "hot_boost": 0.401,
+        "entropy_gain": 0.194,
+        "pair_cooccur_w": 0.121,
+        "cold_penalty": 0.249,
+        "streak_break": 0.113,
+        "gap_floor": 4.256,
+        "gap_cap": 60.0,
+        "poisson_gain": 0.538,
+        "modulo_gain": 0.237,
+        "absence_gain": 0.121
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5M_0DB15DA811",
+      "name": "R5_Mut_2 (Auto-Built)",
+      "description": "StatisticalModel",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.42,
+      "parameters": {
+        "weight_factor_1": 0.773,
+        "weight_factor_2": 0.801,
+        "weight_factor_3": 0.801,
+        "weight_factor_4": 0.394,
+        "weight_factor_5": 1.179,
+        "weight_factor_6": 0.785,
+        "weight_factor_7": 0.246,
+        "weight_factor_8": 0.189,
+        "weight_factor_9": 0.736
+      },
+      "fitness_score": 0.64,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "StatisticalModel",
+      "signature": "",
+      "features": []
+    }
+  ],
+  "schema_version": 2,
+  "compiler_version": "8.2.0-correctness",
+  "created_at_utc": "2026-10-03T19:19:34Z",
+  "data_hash": "c3acd706ad8965740096881a1bbe8f8fc046494aa95be6cf034f1a436e0ebee0",
+  "random_seed": 123456,
+  "walk_forward_folds": [
+    {
+      "train": [
+        0,
+        6937
+      ],
+      "val": [
+        6942,
+        7032
+      ]
+    },
+    {
+      "train": [
+        0,
+        7027
+      ],
+      "val": [
+        7032,
+        7122
+      ]
+    },
+    {
+      "train": [
+        0,
+        7117
+      ],
+      "val": [
+        7122,
+        7212
+      ]
+    },
+    {
+      "train": [
+        0,
+        7207
+      ],
+      "val": [
+        7212,
+        7302
+      ]
+    },
+    {
+      "train": [
+        0,
+        7297
+      ],
+      "val": [
+        7302,
+        7392
+      ]
+    }
+  ],
+  "cache_stats": {
+    "hits": 154402,
+    "misses": 384519,
+    "hit_ratio": 0.2865021032767326
+  },
+  "holdout_access_count": 18,
+  "fitness_weights": {
+    "w_lift": 1.0,
+    "w_stability": 0.3,
+    "w_diversity": 0.22
+  },
+  "config": {
+    "top_k": 3,
+    "target_mode": "all_prizes",
+    "normalization_mode": "rank",
+    "patience_limit": 20,
+    "skip_threshold": 10,
+    "test_days": 360,
+    "val_days": 183,
+    "holdout_days": 180
+  },
+  "split": {
+    "train": [
+      6849,
+      7209
+    ],
+    "val": [
+      7209,
+      7392
+    ],
+    "holdout": [
+      7392,
+      7572
+    ],
+    "n": 7572,
+    "dev": [
+      0,
+      7392
+    ],
+    "folds": [
+      [
+        6942,
+        7032
+      ],
+      [
+        7032,
+        7122
+      ],
+      [
+        7122,
+        7212
+      ],
+      [
+        7212,
+        7302
+      ],
+      [
+        7302,
+        7392
+      ]
+    ]
+  },
+  "metrics": {
+    "development_val_hit_rate": 0.64,
+    "development_val_baseline": 0.56275,
+    "development_val_lift": 0.07725,
+    "holdout_hit_rate": 0.56111
+  },
+  "stop_reason": "Hoàn tất tối ưu sâu train/val/holdout",
+  "session_id": "223507-031026"
+}

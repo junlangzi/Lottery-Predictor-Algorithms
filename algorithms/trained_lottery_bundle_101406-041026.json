@@ -1,0 +1,307 @@
+{
+  "bundle_id": "session_101406-041026",
+  "bundle_name": "Super algorithm + (2 TT)",
+  "trained_date": "2026-10-04T12:16:50",
+  "trained_by": "Thiên cơ số PC Studio Pro / 10m06s",
+  "model_ai_used": "phi4-mini:latest",
+  "generations": 0,
+  "history_days_trained": 7392,
+  "fitness_metric": "TopK_WalkForward_MultiFold",
+  "train_hit_rate": 0.64889,
+  "ai_advisor_summary": "Stop: Autosave định kỳ 5 phút. Active=2. DEV HR=64.9%.",
+  "is_enabled": true,
+  "formulas": [
+    {
+      "id": "AI_6CE17CED9E",
+      "name": "Absen_Decay_W48_D90_Sb1_Ag25_C741 (Auto-Built)",
+      "description": "StatisticalModel",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.31,
+      "parameters": {
+        "absence_gain": 0.321,
+        "absence_power": 1.199,
+        "absence_reflect": 0.328,
+        "all_prize_boost": 0.218,
+        "decay": 0.828,
+        "digit_gain": 0.144,
+        "neighbor_gain": 0.285,
+        "phase_gain": 0.178,
+        "scale": 0.533,
+        "special_boost": 1.015,
+        "window_days": 60.0
+      },
+      "fitness_score": 0.64889,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "StatisticalModel",
+      "signature": "",
+      "features": [
+        "exp_recency",
+        "absence_power",
+        "modulo_class"
+      ]
+    },
+    {
+      "id": "R5_96E3B19B5599",
+      "name": "R5_Cand_4 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 1.07,
+      "parameters": {
+        "scale": 0.721,
+        "decay": 0.931,
+        "window_days": 60.0,
+        "entropy_gain": 0.227,
+        "poisson_gain": 0.923,
+        "modulo_gain": 0.415,
+        "cold_penalty": 0.22,
+        "streak_break": 0.161,
+        "phase_period": 16.068,
+        "hot_boost": 0.226,
+        "modulo": 11.897,
+        "markov_gain": 0.562,
+        "lag_half_life": 12.599,
+        "recency_mix": 0.7,
+        "pair_cooccur_w": 0.094,
+        "gap_cap": 180.0
+      },
+      "fitness_score": 0.64889,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    }
+  ],
+  "best_individual": {
+    "weights": {
+      "AI_6CE17CED9E": 0.31,
+      "R5_96E3B19B5599": 1.07
+    },
+    "params": {
+      "AI_6CE17CED9E": {
+        "absence_gain": 0.321,
+        "absence_power": 1.199,
+        "absence_reflect": 0.328,
+        "all_prize_boost": 0.218,
+        "decay": 0.828,
+        "digit_gain": 0.144,
+        "neighbor_gain": 0.285,
+        "phase_gain": 0.178,
+        "scale": 0.533,
+        "special_boost": 1.015,
+        "window_days": 60.0
+      },
+      "R5_96E3B19B5599": {
+        "scale": 0.721,
+        "decay": 0.931,
+        "window_days": 60.0,
+        "entropy_gain": 0.227,
+        "poisson_gain": 0.923,
+        "modulo_gain": 0.415,
+        "cold_penalty": 0.22,
+        "streak_break": 0.161,
+        "phase_period": 16.068,
+        "hot_boost": 0.226,
+        "modulo": 11.897,
+        "markov_gain": 0.562,
+        "lag_half_life": 12.599,
+        "recency_mix": 0.7,
+        "pair_cooccur_w": 0.094,
+        "gap_cap": 180.0
+      }
+    }
+  },
+  "last_completed_stage": null,
+  "best_hit_rate": 0.6488888888888888,
+  "active_algorithms": [
+    {
+      "id": "AI_6CE17CED9E",
+      "name": "Absen_Decay_W48_D90_Sb1_Ag25_C741 (Auto-Built)",
+      "description": "StatisticalModel",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.31,
+      "parameters": {
+        "absence_gain": 0.321,
+        "absence_power": 1.199,
+        "absence_reflect": 0.328,
+        "all_prize_boost": 0.218,
+        "decay": 0.828,
+        "digit_gain": 0.144,
+        "neighbor_gain": 0.285,
+        "phase_gain": 0.178,
+        "scale": 0.533,
+        "special_boost": 1.015,
+        "window_days": 60.0
+      },
+      "fitness_score": 0.64889,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "StatisticalModel",
+      "signature": "",
+      "features": [
+        "exp_recency",
+        "absence_power",
+        "modulo_class"
+      ]
+    },
+    {
+      "id": "R5_96E3B19B5599",
+      "name": "R5_Cand_4 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 1.07,
+      "parameters": {
+        "scale": 0.721,
+        "decay": 0.931,
+        "window_days": 60.0,
+        "entropy_gain": 0.227,
+        "poisson_gain": 0.923,
+        "modulo_gain": 0.415,
+        "cold_penalty": 0.22,
+        "streak_break": 0.161,
+        "phase_period": 16.068,
+        "hot_boost": 0.226,
+        "modulo": 11.897,
+        "markov_gain": 0.562,
+        "lag_half_life": 12.599,
+        "recency_mix": 0.7,
+        "pair_cooccur_w": 0.094,
+        "gap_cap": 180.0
+      },
+      "fitness_score": 0.64889,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    }
+  ],
+  "schema_version": 2,
+  "compiler_version": "8.2.0-correctness",
+  "created_at_utc": "2026-10-04T05:16:50Z",
+  "data_hash": "c3acd706ad8965740096881a1bbe8f8fc046494aa95be6cf034f1a436e0ebee0",
+  "random_seed": 123456,
+  "walk_forward_folds": [
+    {
+      "train": [
+        0,
+        6937
+      ],
+      "val": [
+        6942,
+        7032
+      ]
+    },
+    {
+      "train": [
+        0,
+        7027
+      ],
+      "val": [
+        7032,
+        7122
+      ]
+    },
+    {
+      "train": [
+        0,
+        7117
+      ],
+      "val": [
+        7122,
+        7212
+      ]
+    },
+    {
+      "train": [
+        0,
+        7207
+      ],
+      "val": [
+        7212,
+        7302
+      ]
+    },
+    {
+      "train": [
+        0,
+        7297
+      ],
+      "val": [
+        7302,
+        7392
+      ]
+    }
+  ],
+  "cache_stats": {
+    "hits": 3966,
+    "misses": 87885,
+    "hit_ratio": 0.04317862625338864
+  },
+  "holdout_access_count": 0,
+  "fitness_weights": {
+    "w_lift": 1.0,
+    "w_stability": 0.3,
+    "w_diversity": 0.22
+  },
+  "config": {
+    "top_k": 3,
+    "target_mode": "all_prizes",
+    "normalization_mode": "rank",
+    "patience_limit": 20,
+    "skip_threshold": 10,
+    "test_days": 360,
+    "val_days": 183,
+    "holdout_days": 180
+  },
+  "split": {
+    "train": [
+      6849,
+      7209
+    ],
+    "val": [
+      7209,
+      7392
+    ],
+    "holdout": [
+      7392,
+      7572
+    ],
+    "n": 7572,
+    "dev": [
+      0,
+      7392
+    ],
+    "folds": [
+      [
+        6942,
+        7032
+      ],
+      [
+        7032,
+        7122
+      ],
+      [
+        7122,
+        7212
+      ],
+      [
+        7212,
+        7302
+      ],
+      [
+        7302,
+        7392
+      ]
+    ]
+  },
+  "metrics": {
+    "development_val_hit_rate": 0.64889,
+    "development_val_baseline": 0.56275,
+    "development_val_lift": 0.08614,
+    "holdout_hit_rate": null
+  },
+  "stop_reason": "Autosave định kỳ 5 phút",
+  "session_id": "101406-041026"
+}

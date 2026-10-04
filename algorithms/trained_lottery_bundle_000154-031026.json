@@ -1,0 +1,641 @@
+{
+  "bundle_id": "session_000154-031026",
+  "bundle_name": "Super algorithm + (6 TT)",
+  "trained_date": "2026-10-03T03:50:31",
+  "trained_by": "Thiên cơ số PC Studio Pro / 39s",
+  "model_ai_used": "phi4-mini:latest",
+  "generations": 0,
+  "history_days_trained": 7391,
+  "fitness_metric": "TopK_WalkForward_MultiFold",
+  "train_hit_rate": 0.57778,
+  "ai_advisor_summary": "Stop: Hoàn tất tối ưu sâu train/val/holdout. Active=6. DEV HR=0.0%.",
+  "is_enabled": true,
+  "formulas": [
+    {
+      "id": "AI_E6F52E1D5C4B42",
+      "name": "Math_Synth_2 (Auto-Built) (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "AI_Math_Fallback",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.9302,
+      "parameters": {
+        "absence_gain": 0.325,
+        "decay": 0.99,
+        "frib": 0.001,
+        "glorp": 58.453,
+        "lupa": 2.406,
+        "modulo": 3.309,
+        "modulo_gain": 0.415,
+        "phase_gain": 0.627,
+        "phase_period": 7.493,
+        "quizz": 1.332,
+        "special_boost": 2.797,
+        "tym": 2.375,
+        "vorl": 91.251,
+        "window_days": 90.0,
+        "xente": 0.653,
+        "zork": 1.222
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Math_Fallback",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5C_C7FBC2DD89",
+      "name": "R5_Rec_6 (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.6698,
+      "parameters": {
+        "absence_gain": 0.178,
+        "decay": 0.966,
+        "gap_floor": 2.92,
+        "hot_boost": 0.325,
+        "lag_half_life": 12.205,
+        "markov_gain": 0.593,
+        "modulo": 4.033,
+        "modulo_gain": 0.638,
+        "pair_cooccur_w": 0.09,
+        "phase_gain": 0.547,
+        "phase_period": 8.516,
+        "recency_mix": 0.57,
+        "scale": 1.167,
+        "special_boost": 1.237,
+        "streak_break": 0.149,
+        "window_days": 45.0
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5_2C16DB4DB64F",
+      "name": "R5_Cand_8 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 1.6465,
+      "parameters": {
+        "decay": 0.8,
+        "window_days": 45.0,
+        "gap_cap": 45.0,
+        "cold_penalty": 0.206,
+        "entropy_gain": 0.104,
+        "digit_gain": 0.326,
+        "phase_gain": 0.447,
+        "pair_cooccur_w": 0.097,
+        "recency_mix": 0.74,
+        "absence_gain": 0.126,
+        "modulo": 5.535,
+        "gap_floor": 3.718,
+        "hot_boost": 0.337,
+        "neighbor_gain": 0.48,
+        "scale": 1.244,
+        "modulo_gain": 0.358
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_5466A127AF",
+      "name": "Poisson_ExpRec_W55_D88_18D0 (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "AI_Probability",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.9302,
+      "parameters": {
+        "decay": 0.8,
+        "event_type_weight": 1.016,
+        "feature_interaction_strength": 0.649,
+        "global_bias": 0.01,
+        "history_depth_years": 2.463,
+        "learning_rate": 0.012,
+        "max_probability_cap": 45.0,
+        "min_probability_threshold": 0.001,
+        "modulo_divisor": 13.074,
+        "modulo_weight": 0.745,
+        "poisson_smoothing_factor": 0.116,
+        "poisson_window_size": 180.0,
+        "recency_decay_rate": 0.948,
+        "recency_halflife": 7.885,
+        "regularization_lambda": 0.007,
+        "window_days": 90.0
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Probability",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_61E1EDD305",
+      "name": "ModCls_Poisson_W61_M10_D91_Sb1_Ag25_DE5F (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "Fallback_Math",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.9302,
+      "parameters": {
+        "absence_gain": 0.243,
+        "ai_weight_4": 0.649,
+        "decay": 0.99,
+        "digit_gain": 0.249,
+        "entropy_base": 2.339,
+        "impact_weight": 0.548,
+        "markov_gain": 0.529,
+        "modulo": 11.549,
+        "neighbor_gain": 0.279,
+        "phase_gain": 0.243,
+        "poisson_gain": 0.623,
+        "scale": 1.046,
+        "sigma": 5.598,
+        "special_boost": 1.669,
+        "tail_index": 1.61,
+        "window_days": 120.0
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "Fallback_Math",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_C39EA1CF4F",
+      "name": "ExpRec_Absen_W15_M9_D88_Sb3_Ag25_0F58 (Auto-Built)",
+      "description": "AI_Probability",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.893,
+      "parameters": {
+        "window_days": 60.0,
+        "absence_factor": 0.067,
+        "exp_recency": 1.008,
+        "modulo_interval": 0.0,
+        "decay": 0.99,
+        "scale": 0.796,
+        "special_boost": 4.267,
+        "all_prize_boost": 0.122,
+        "absence_gain": 0.319,
+        "absence_power": 1.742,
+        "neighbor_gain": 0.401,
+        "digit_gain": 0.494,
+        "modulo": 11.504,
+        "modulo_gain": 0.473,
+        "poisson_gain": 1.68,
+        "phase_period": 28.405,
+        "phase_gain": 0.333
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Probability",
+      "signature": "",
+      "features": []
+    }
+  ],
+  "best_individual": {
+    "weights": {
+      "R5_2C16DB4DB64F": 1.6465,
+      "AI_5466A127AF": 0.9302,
+      "AI_61E1EDD305": 0.9302,
+      "AI_E6F52E1D5C4B42": 0.9302,
+      "R5C_C7FBC2DD89": 0.6698,
+      "AI_C39EA1CF4F": 0.893
+    },
+    "params": {
+      "R5_2C16DB4DB64F": {
+        "decay": 0.8,
+        "window_days": 45.0,
+        "gap_cap": 45.0,
+        "cold_penalty": 0.206,
+        "entropy_gain": 0.104,
+        "digit_gain": 0.326,
+        "phase_gain": 0.447,
+        "pair_cooccur_w": 0.097,
+        "recency_mix": 0.74,
+        "absence_gain": 0.126,
+        "modulo": 5.535,
+        "gap_floor": 3.718,
+        "hot_boost": 0.337,
+        "neighbor_gain": 0.48,
+        "scale": 1.244,
+        "modulo_gain": 0.358
+      },
+      "AI_5466A127AF": {
+        "decay": 0.8,
+        "event_type_weight": 1.016,
+        "feature_interaction_strength": 0.649,
+        "global_bias": 0.01,
+        "history_depth_years": 2.463,
+        "learning_rate": 0.012,
+        "max_probability_cap": 45.0,
+        "min_probability_threshold": 0.001,
+        "modulo_divisor": 13.074,
+        "modulo_weight": 0.745,
+        "poisson_smoothing_factor": 0.116,
+        "poisson_window_size": 180.0,
+        "recency_decay_rate": 0.948,
+        "recency_halflife": 7.885,
+        "regularization_lambda": 0.007,
+        "window_days": 90.0
+      },
+      "AI_61E1EDD305": {
+        "absence_gain": 0.243,
+        "ai_weight_4": 0.649,
+        "decay": 0.99,
+        "digit_gain": 0.249,
+        "entropy_base": 2.339,
+        "impact_weight": 0.548,
+        "markov_gain": 0.529,
+        "modulo": 11.549,
+        "neighbor_gain": 0.279,
+        "phase_gain": 0.243,
+        "poisson_gain": 0.623,
+        "scale": 1.046,
+        "sigma": 5.598,
+        "special_boost": 1.669,
+        "tail_index": 1.61,
+        "window_days": 120.0
+      },
+      "AI_E6F52E1D5C4B42": {
+        "absence_gain": 0.325,
+        "decay": 0.99,
+        "frib": 0.001,
+        "glorp": 58.453,
+        "lupa": 2.406,
+        "modulo": 3.309,
+        "modulo_gain": 0.415,
+        "phase_gain": 0.627,
+        "phase_period": 7.493,
+        "quizz": 1.332,
+        "special_boost": 2.797,
+        "tym": 2.375,
+        "vorl": 91.251,
+        "window_days": 90.0,
+        "xente": 0.653,
+        "zork": 1.222
+      },
+      "R5C_C7FBC2DD89": {
+        "absence_gain": 0.178,
+        "decay": 0.966,
+        "gap_floor": 2.92,
+        "hot_boost": 0.325,
+        "lag_half_life": 12.205,
+        "markov_gain": 0.593,
+        "modulo": 4.033,
+        "modulo_gain": 0.638,
+        "pair_cooccur_w": 0.09,
+        "phase_gain": 0.547,
+        "phase_period": 8.516,
+        "recency_mix": 0.57,
+        "scale": 1.167,
+        "special_boost": 1.237,
+        "streak_break": 0.149,
+        "window_days": 45.0
+      },
+      "AI_C39EA1CF4F": {
+        "window_days": 60.0,
+        "absence_factor": 0.067,
+        "exp_recency": 1.008,
+        "modulo_interval": 0.0,
+        "decay": 0.99,
+        "scale": 0.796,
+        "special_boost": 4.267,
+        "all_prize_boost": 0.122,
+        "absence_gain": 0.319,
+        "absence_power": 1.742,
+        "neighbor_gain": 0.401,
+        "digit_gain": 0.494,
+        "modulo": 11.504,
+        "modulo_gain": 0.473,
+        "poisson_gain": 1.68,
+        "phase_period": 28.405,
+        "phase_gain": 0.333
+      }
+    }
+  },
+  "last_completed_stage": "V5.3",
+  "best_hit_rate": 0.0,
+  "active_algorithms": [
+    {
+      "id": "AI_E6F52E1D5C4B42",
+      "name": "Math_Synth_2 (Auto-Built) (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "AI_Math_Fallback",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.9302,
+      "parameters": {
+        "absence_gain": 0.325,
+        "decay": 0.99,
+        "frib": 0.001,
+        "glorp": 58.453,
+        "lupa": 2.406,
+        "modulo": 3.309,
+        "modulo_gain": 0.415,
+        "phase_gain": 0.627,
+        "phase_period": 7.493,
+        "quizz": 1.332,
+        "special_boost": 2.797,
+        "tym": 2.375,
+        "vorl": 91.251,
+        "window_days": 90.0,
+        "xente": 0.653,
+        "zork": 1.222
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Math_Fallback",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5C_C7FBC2DD89",
+      "name": "R5_Rec_6 (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.6698,
+      "parameters": {
+        "absence_gain": 0.178,
+        "decay": 0.966,
+        "gap_floor": 2.92,
+        "hot_boost": 0.325,
+        "lag_half_life": 12.205,
+        "markov_gain": 0.593,
+        "modulo": 4.033,
+        "modulo_gain": 0.638,
+        "pair_cooccur_w": 0.09,
+        "phase_gain": 0.547,
+        "phase_period": 8.516,
+        "recency_mix": 0.57,
+        "scale": 1.167,
+        "special_boost": 1.237,
+        "streak_break": 0.149,
+        "window_days": 45.0
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "R5_2C16DB4DB64F",
+      "name": "R5_Cand_8 (Auto-Built)",
+      "description": "AI_Round5",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 1.6465,
+      "parameters": {
+        "decay": 0.8,
+        "window_days": 45.0,
+        "gap_cap": 45.0,
+        "cold_penalty": 0.206,
+        "entropy_gain": 0.104,
+        "digit_gain": 0.326,
+        "phase_gain": 0.447,
+        "pair_cooccur_w": 0.097,
+        "recency_mix": 0.74,
+        "absence_gain": 0.126,
+        "modulo": 5.535,
+        "gap_floor": 3.718,
+        "hot_boost": 0.337,
+        "neighbor_gain": 0.48,
+        "scale": 1.244,
+        "modulo_gain": 0.358
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Round5",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_5466A127AF",
+      "name": "Poisson_ExpRec_W55_D88_18D0 (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "AI_Probability",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.9302,
+      "parameters": {
+        "decay": 0.8,
+        "event_type_weight": 1.016,
+        "feature_interaction_strength": 0.649,
+        "global_bias": 0.01,
+        "history_depth_years": 2.463,
+        "learning_rate": 0.012,
+        "max_probability_cap": 45.0,
+        "min_probability_threshold": 0.001,
+        "modulo_divisor": 13.074,
+        "modulo_weight": 0.745,
+        "poisson_smoothing_factor": 0.116,
+        "poisson_window_size": 180.0,
+        "recency_decay_rate": 0.948,
+        "recency_halflife": 7.885,
+        "regularization_lambda": 0.007,
+        "window_days": 90.0
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Probability",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_61E1EDD305",
+      "name": "ModCls_Poisson_W61_M10_D91_Sb1_Ag25_DE5F (Auto-Built) (Auto-Built) (Auto-Built)",
+      "description": "Fallback_Math",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.9302,
+      "parameters": {
+        "absence_gain": 0.243,
+        "ai_weight_4": 0.649,
+        "decay": 0.99,
+        "digit_gain": 0.249,
+        "entropy_base": 2.339,
+        "impact_weight": 0.548,
+        "markov_gain": 0.529,
+        "modulo": 11.549,
+        "neighbor_gain": 0.279,
+        "phase_gain": 0.243,
+        "poisson_gain": 0.623,
+        "scale": 1.046,
+        "sigma": 5.598,
+        "special_boost": 1.669,
+        "tail_index": 1.61,
+        "window_days": 120.0
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "Fallback_Math",
+      "signature": "",
+      "features": []
+    },
+    {
+      "id": "AI_C39EA1CF4F",
+      "name": "ExpRec_Absen_W15_M9_D88_Sb3_Ag25_0F58 (Auto-Built)",
+      "description": "AI_Probability",
+      "calculation_logic": "appearance_based_optimized_v13",
+      "weight": 0.893,
+      "parameters": {
+        "window_days": 60.0,
+        "absence_factor": 0.067,
+        "exp_recency": 1.008,
+        "modulo_interval": 0.0,
+        "decay": 0.99,
+        "scale": 0.796,
+        "special_boost": 4.267,
+        "all_prize_boost": 0.122,
+        "absence_gain": 0.319,
+        "absence_power": 1.742,
+        "neighbor_gain": 0.401,
+        "digit_gain": 0.494,
+        "modulo": 11.504,
+        "modulo_gain": 0.473,
+        "poisson_gain": 1.68,
+        "phase_period": 28.405,
+        "phase_gain": 0.333
+      },
+      "fitness_score": 0.0,
+      "generation_found": 0,
+      "ai_advisor_notes": "",
+      "family": "AI_Probability",
+      "signature": "",
+      "features": []
+    }
+  ],
+  "schema_version": 2,
+  "compiler_version": "8.2.0-correctness",
+  "created_at_utc": "2026-10-02T20:50:31Z",
+  "data_hash": "b9f3730c2cfbb65045bb28e1c194588d10e4645eaf162f2a70c07b1f71ff732d",
+  "random_seed": 123456,
+  "walk_forward_folds": [
+    {
+      "train": [
+        0,
+        6936
+      ],
+      "val": [
+        6941,
+        7031
+      ]
+    },
+    {
+      "train": [
+        0,
+        7026
+      ],
+      "val": [
+        7031,
+        7121
+      ]
+    },
+    {
+      "train": [
+        0,
+        7116
+      ],
+      "val": [
+        7121,
+        7211
+      ]
+    },
+    {
+      "train": [
+        0,
+        7206
+      ],
+      "val": [
+        7211,
+        7301
+      ]
+    },
+    {
+      "train": [
+        0,
+        7296
+      ],
+      "val": [
+        7301,
+        7391
+      ]
+    }
+  ],
+  "cache_stats": {
+    "hits": 6012,
+    "misses": 5460,
+    "hit_ratio": 0.5240585774058577
+  },
+  "holdout_access_count": 18,
+  "fitness_weights": {
+    "w_lift": 1.0,
+    "w_stability": 0.3,
+    "w_diversity": 0.22
+  },
+  "config": {
+    "top_k": 3,
+    "target_mode": "all_prizes",
+    "normalization_mode": "rank",
+    "patience_limit": 20,
+    "skip_threshold": 10,
+    "test_days": 360,
+    "val_days": 183,
+    "holdout_days": 180
+  },
+  "split": {
+    "train": [
+      6848,
+      7208
+    ],
+    "val": [
+      7208,
+      7391
+    ],
+    "holdout": [
+      7391,
+      7571
+    ],
+    "n": 7571,
+    "dev": [
+      0,
+      7391
+    ],
+    "folds": [
+      [
+        6941,
+        7031
+      ],
+      [
+        7031,
+        7121
+      ],
+      [
+        7121,
+        7211
+      ],
+      [
+        7211,
+        7301
+      ],
+      [
+        7301,
+        7391
+      ]
+    ]
+  },
+  "metrics": {
+    "development_val_hit_rate": 0.0,
+    "development_val_baseline": 0.56294,
+    "development_val_lift": -0.56294,
+    "holdout_hit_rate": 0.57778
+  },
+  "stop_reason": "Hoàn tất tối ưu sâu train/val/holdout",
+  "session_id": "000154-031026"
+}
